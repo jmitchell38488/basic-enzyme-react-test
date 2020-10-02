@@ -1,0 +1,52 @@
+{
+  "name": "basic-enzyme-react-test",
+  "version": "1.0.0",
+  "description": "A basic example of using enzyme with react",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "webpack-dev-server --open --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmitchell38488/basic-enzyme-react-test.git"
+  },
+  "keywords": [
+    "enzyme",
+    "react",
+    "testing",
+    "test"
+  ],
+  "author": "Justin Mitchell <jmitchell38488@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmitchell38488/basic-enzyme-react-test/issues"
+  },
+  "homepage": "https://github.com/jmitchell38488/basic-enzyme-react-test#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.0.4",
+    "@types/jest": "^26.0.14",
+    "@types/react": "^16.9.49",
+    "@types/react-dom": "^16.9.8",
+    "babel-jest": "^26.3.0",
+    "babel-loader": "^8.1.0",
+    "eslint": "^7.10.0",
+    "eslint-plugin-jest": "^24.0.2",
+    "eslint-plugin-react": "^7.21.2",
+    "html-webpack-plugin": "^4.5.0",
+    "jest": "^26.4.2",
+    "jest-cli": "^26.4.2",
+    "react-test-renderer": "^16.13.1",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
