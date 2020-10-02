@@ -19,14 +19,9 @@ describe("Component: Name", () => {
     expect(component.exists("form")).toBe(true);
   });
 
-  it("should render default state", () => {
-    expect(component.exists(NameRenderer)).toBe(true);
-    expect(component.find(NameRenderer).dive().find("#output").text()).toBe("Hello, ");
-  });
-
   it("should display name when user types into input field", () => {
     component.find("input#name").simulate("change", { target: { value: "Charles" } });
-    expect(component.find(NameRenderer).dive().find("#output").text()).toBe("Hello, Charles");
+    expect(component.find(NameRenderer).props()).toStrictEqual({name: "Charles"});
   });
 
 });
