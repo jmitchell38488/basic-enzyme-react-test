@@ -1,7 +1,7 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import { Name } from "./components/name/name";
+import { Todo } from "./components/todo/todo";
 
 ReactDOM.render(
-  <Name />, document.getElementById("main")
+  <Todo />, document.getElementById("main")
 )
