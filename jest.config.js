@@ -4,5 +4,6 @@ module.exports = {
   testEnvironment: "jsdom",
   bail: true,
   verbose: true,
-  errorOnDeprecated: false
+  errorOnDeprecated: false,
+  setupFiles: [ "<rootDir>/enzyme.setup.js" ]
 }
